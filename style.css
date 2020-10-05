@@ -1,9 +1,15 @@
-/* Global ==============================================================*/
+/* Debug ===============================================================*/
+* {
+    outline: 1px solid red;
+}
+
+/* All styles ==========================================================*/
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Overpass", sans-serif;
 }
 
 /* global variables ====================================================*/
@@ -37,6 +43,38 @@
 /* header ==============================================================*/
 .header {
     background-color: rgb(var(--color-background-blue-dark));
+    display: flex;
+    justify-content: center;
+}
+
+/* Nav -----------------------------------------------------------------*/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.seasons {
+    color: #bcbedc;
+    display: flex;
+    justify-content: center;
+}
+
+.season-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.season-name {
+    width: 100%;
+}
+
+.season-year {
+    text-align: center;
+    font-size: 0.6em;
+    width: 100%;
 }
 
 /* main ================================================================*/

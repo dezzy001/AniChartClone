@@ -4,12 +4,16 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Overpass&display=swap"
+            rel="stylesheet"
+        />
         <script src="main.js"></script>
         <title>AniChart Clone</title>
     </head>
     <body>
         <header class="header">
-            <nav>
+            <nav class="nav">
                 <div class="logo">
                     <a href="#" class="logo-link"
                         ><svg
@@ -35,8 +39,25 @@
                         </svg>
                     </a>
                 </div>
-                <div class="seasons"></div>
-                <div class="options"></div>
+                <div class="seasons">
+                    <div class="season-item">
+                        <div class="season-name">Winter</div>
+                        <div class="season-year">2021</div>
+                    </div>
+                    <div class="season-item">
+                        <div class="season-name">Spring</div>
+                        <div class="season-year">2021</div>
+                    </div>
+                    <div class="season-item">
+                        <div class="season-name">Summer</div>
+                        <div class="season-year">2020</div>
+                    </div>
+                    <div class="season-item season-item--active">
+                        <div class="season-name">Fall</div>
+                        <div class="season-year">2020</div>
+                    </div>
+                </div>
+                <div class="option"></div>
             </nav>
         </header>
 
