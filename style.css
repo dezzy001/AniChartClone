@@ -1,0 +1,45 @@
+/* Global ==============================================================*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* global variables ====================================================*/
+:root {
+    --color-background: 237, 241, 245;
+    --color-foreground: 250, 252, 252;
+    --color-foreground-grey: 245, 246, 246;
+    --color-foreground-grey-dark: 234, 236, 237;
+    --color-foreground-blue: 239, 247, 251;
+    --color-foreground-blue-dark: 241, 243, 247;
+    --color-background-blue-dark: 31, 35, 45;
+    --color-overlay: 41, 41, 41;
+    --color-scroll-bar: 41, 41, 41;
+    --color-shadow: 49, 54, 68;
+    --color-shadow-dark: 6, 13, 34;
+    --color-text: 92, 114, 138;
+    --color-text-light: 110, 133, 158;
+    --color-text-lighter: 146, 153, 161;
+    --color-text-bright: 237, 241, 245;
+    --color-blue: 61, 180, 242;
+    --color-blue-dim: 141, 178, 219;
+    --color-white: 255, 255, 255;
+    --color-red: 232, 93, 117;
+    --color-peach: 250, 122, 122;
+    --color-orange: 247, 154, 99;
+    --color-yellow: 247, 191, 99;
+    --color-green: 93, 193, 47;
+    --color-purple: 158, 82, 255;
+}
+
+/* header ==============================================================*/
+.header {
+    background-color: rgb(var(--color-background-blue-dark));
+}
+
+/* main ================================================================*/
+.main {
+    background-color: rgb(var(--color-background));
+}
